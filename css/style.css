@@ -1,0 +1,534 @@
+
+body{
+
+margin: 0;
+padding: 0;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+font-family: Candara;
+
+}
+
+.fixed{
+
+position: fixed;
+
+}
+
+.header{
+
+width: 100%;
+height: 650px;
+background-image: url('../images/slide-1-fs.jpg');
+background-size: cover;
+
+}
+
+.header .conrad{
+
+float: left;
+color: white;
+text-transform: uppercase;
+font-size: 20px;
+margin-top: 15px;
+margin-left: 100px;
+cursor: pointer;
+
+
+}
+
+.header ul{
+
+float: right;
+margin-top: 20px;
+margin-left: 450px;
+
+}
+
+.header ul li{
+
+display: inline-block;
+
+}
+
+.header ul li a{
+
+color: white;
+padding: 15px;
+transition: all 1s ease-in-out;
+text-transform: uppercase;
+
+}
+
+.header ul li a:hover{
+
+text-decoration: none;
+color: red;
+
+}
+
+.clear1{
+
+clear: both;
+
+}
+
+.s1{
+
+float: left;
+color: white;
+margin-top: 140px;
+margin-left: 40px;
+
+}
+
+.s2{
+
+width: 100%;
+height: 500px;
+background-color: white;
+
+}
+
+.c1{
+
+float: left;
+margin-left: 80px;
+margin-top: 100px;
+
+}
+
+.c1 p{
+
+padding-top: 25px;
+
+}
+
+.c2 img , .c3 img{
+
+width: 300px;
+height: 150px;
+
+}
+
+.c2{
+
+float: left;
+margin-left: 80px;
+margin-top: 100px;
+overflow: hidden;
+
+}
+
+.c2 *:not(img) , .c3 *:not(img){
+
+margin-top: 15px;
+
+}
+
+.c3{
+
+float: left;
+margin-left: 80px;
+margin-top: 100px;
+overflow: hidden;
+transition: all 1s ease-in-out;
+
+}
+
+.c2 img:hover , .c3 img:hover{
+
+transform: scale(1.2);
+    
+}
+
+.s3{
+
+width: 100%;
+height: 500px;
+background-size: cover;
+background-image: url(../images/slide-7-fw.jpg);
+
+}
+
+.s3 div{
+
+float: left;
+color: white;
+margin-left: 450px;
+margin-top: 240px;
+
+}
+
+.s3 div p:first-child{
+
+margin-left: 140px;
+
+}
+
+.s3 div p:nth-of-type(3){
+
+margin-left: 80px;
+
+}
+
+.s3 div p:nth-of-type(4){
+
+margin-left: 140px;
+font-family: serif;
+font-style: italic;
+
+}
+
+.s3 div button{
+
+padding: 10px;
+width: 200px;
+margin-left: 10px;
+background-color: white;
+text-transform: uppercase;
+transition: all 1s ease-in-out;
+
+}
+
+.s3 div button:hover{
+
+background-color: orangered;
+outline: none;
+
+}
+
+.s4{
+
+width: 100%;
+height: 400px;
+background-color: white;
+
+}
+
+.s4 .c4{
+
+float: left;
+margin-left: 100px;
+margin-top: 70px;
+
+}
+
+.s4 .c5{
+
+float: left;
+margin-left: 200px;
+margin-top: 70px;
+cursor: pointer;
+
+}
+
+.s4 .c5 h2{
+
+background-color: black;
+color: white;
+
+}
+
+.s4 .c5 p{
+
+background-color: rgb(0, 0, 0,0.2);
+
+}
+
+.time{
+
+width: 100%;
+height: 400px;
+background-color: white;
+
+}
+
+.time .t1{
+
+float: left;
+width: 50%;
+background-color: red;
+height: 400px;
+color: white;
+
+}
+
+.time .t1 p{
+
+padding-top: 40px;
+
+}
+
+.time .t2{
+
+float: right;
+background-image: url("../images/hero-half-3.jpg");
+width: 50%;
+height: 400px;
+
+}
+
+.time .t2 span{
+
+position: absolute;
+color: white;
+font-size: 30px;
+
+}
+
+.t2 span:first-child{
+
+margin-left: 200px;
+margin-top: 100px;
+
+}
+
+.t2 span:first-child::after{
+
+content: "K";
+
+}
+
+.t2 span:nth-of-type(2){
+
+margin-left: 400px;
+margin-top: 100px;
+
+}
+
+.t2 span:nth-of-type(2)::after{
+
+content: "+";
+
+}
+
+.t2 span:nth-of-type(3){
+
+margin-left: 200px;
+margin-top: 200px;
+
+}
+
+.t2 span:nth-of-type(3)::after{
+
+content: ",500";
+
+}
+
+.t2 span:last-child{
+
+margin-left: 400px;
+margin-top: 200px;
+
+}
+
+.t2 span:last-child::after{
+
+content: "K";
+
+}
+
+.button{
+
+width: 100%;
+height: 170px;
+background-color: white;
+
+}
+
+.button h2{
+
+float: left;
+margin-left: 550px;
+margin-top: 50px;
+
+}
+
+.button ul{
+
+float: left;
+margin-top: 120px;
+margin-left: -270px;
+
+}
+
+.button ul li{
+
+list-style-type: none;
+display: inline;
+cursor: pointer;
+padding: 10px;
+
+}
+
+.button ul li:hover{
+
+color: red;
+
+}
+
+.cont{
+
+width: 100%;
+height: 530px;
+background-color: white;
+
+}
+
+.cont .left{
+
+float: left;
+width: 25%;
+
+}
+
+.cont .left img{
+
+width: 100%;
+
+}
+
+.cont .right{
+
+float: left;
+width: 25%;
+
+}
+
+.cont .right img{
+
+width: 100%;
+
+}
+
+.cont .boy{
+
+float: left;
+width: 50%;
+
+}
+
+.cont .boy img:first-child{
+
+width: 100%;
+
+}
+
+.cont .boy div:nth-of-type(2) img , .cont .boy div:nth-of-type(3) img{
+
+width: 50%;
+float: left;
+
+}
+
+.mov{
+
+width: 100%;
+height: 200px;
+background-color: #9068be;
+
+}
+
+.mov div:first-child{
+
+float: left;
+margin-top: 70px;
+color: white;
+margin-left: 130px;
+
+}
+
+.mov div:nth-of-type(2) , .mov div:nth-of-type(5) , .mov div:nth-of-type(3) , .mov div:nth-of-type(4){
+
+color: white;
+float: left;
+margin-left: 100px;
+margin-top: 70px;
+
+
+}
+
+.footer1{
+
+width: 100%;
+height: 250px;
+background-color: rgb(0, 0, 0,0.8);
+color: white;
+
+}
+
+.footer1 div:first-child{
+
+text-transform: uppercase;
+float: left;
+margin-top:  40px;
+margin-left: 120px;
+
+}
+
+.footer1 div:nth-of-type(2) , .footer1 div:nth-of-type(3) , .footer1 div:nth-of-type(4){
+
+float: left;
+margin-top: 40px;
+margin-left: 100px;
+
+}
+
+.footer1 input{
+
+display: block;
+margin-top: 10px;
+background-color: transparent;
+border-top: none;
+border-left: none;
+border-right: none;
+
+}
+
+.footer1 input:hover{
+
+outline: none;
+border: none;
+
+}
+
+.footer1 input[type='submit']{
+
+color: white;
+border: 1px solid white;
+
+}
+
+.footer2{
+
+width: 100%;
+height: 150px;
+background-color: black;
+
+}
+
+.footer2 div:first-child{
+
+float: left;
+color: white;
+margin-top: 60px;
+margin-left: 200px;
+
+}
+
+.footer2 div:nth-of-type(2){
+
+float: right;
+color: white;
+cursor: pointer;
+margin-top: 60px;
+margin-right: 200px;
+
+}
+
+
+
+
+
